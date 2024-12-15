@@ -41,7 +41,7 @@ def get_conversation_chain(vectorstore):
     llm = ChatOpenAI(
         model="gpt-4o-mini",  # or any other model you prefer
         temperature=0, 
-        max_tokens=600,  # Set max length for the model's response
+        max_tokens=700,  # Set max length for the model's response
     )
     # llm = HuggingFaceHub(repo_id="google/flan-t5-xxl", model_kwargs={"temperature":0, "max_length":512})
 
